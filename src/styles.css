@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-active {
+  left: 0 !important;
+}
+
+.hero-btn:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.section {
+  /* margin-top: 100vh; */
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mobile-illus {
+  width: 50% !important;
+}
+
+.social-icons {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons:hover {
+  transform: scale(1.2);
+}
+
+.contact-icons {
+  margin-right: 0.3rem;
+}
+
+.enquiry-input {
+  margin: 0.5rem 0 !important;
+  width: 70%;
+}
+
+.message-1 {
+  animation: move 2.5s infinite;
+}
+
+.message-2 {
+  animation: move 2.5s infinite;
+}
+
+.message-3 {
+  animation: move2 3s infinite;
+}
+
+.camera-1 {
+  animation: move 2.5s infinite;
+}
+
+.camera-2 {
+  animation: move2 3s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translateX(10px) translateY(-10px) rotate(5deg) scale(1.1);
+  }
+  100% {
+    transform: translateX(0) translateY(0) rotate(0deg) scale(1);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translateX(-10px) translateY(10px) rotate(10deg) scale(1.1);
+  }
+  100% {
+    transform: translateX(0) translateY(0) rotate(0deg) scale(1);
+  }
+}
