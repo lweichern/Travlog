@@ -5,7 +5,12 @@ import "./styles.css";
 import { ThemeProvider } from "styled-components";
 
 // Routing
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
 // Pages
@@ -28,7 +33,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <HashRouter>
         <GlobalStyles />
         <ScrollToTop />
         <Routes>
@@ -38,7 +43,7 @@ export default function App() {
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
     </ThemeProvider>
   );
 }
