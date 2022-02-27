@@ -1,8 +1,8 @@
 import React from "react";
-import HeroImage from "../components/HeroImage/HeroImage";
-import HeroText from "../components/HeroText/HeroText";
+import HeroImage from "../components/Home Page/HeroImage/HeroImage";
+import HeroText from "../components/Home Page/HeroText/HeroText";
 import ImageList from "../components/ImageList/ImageList";
-import ContentSection from "../components/ContentSection/ContentSection";
+import ContentSection from "../components/Home Page/ContentSection/ContentSection";
 import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import ContentCard from "./ContentCard";
-import CardArray from "../../listComponents/CardContent";
+import CardArray from "../../../listComponents/CardContent";
 
 export default function ContentSection() {
   return (

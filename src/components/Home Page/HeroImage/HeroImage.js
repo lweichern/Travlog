@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Parallax } from "react-parallax";
-import HeroImages from "../../listComponents/HeroImages";
+import HeroImages from "../../../listComponents/HeroImages";
 import { StyledSection, StyledHeroImage } from "./HeroImage.styled";
 import HeroText from "../HeroText/HeroText";
 import Slider from "react-slick";

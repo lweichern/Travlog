@@ -5,7 +5,7 @@ import {
   StyledFlex,
 } from "./ContactUsCardSection.styled";
 import { FaPhone, FaCommentDots } from "react-icons/fa";
-import { Container } from "../styles/Container.styled";
+import { Container } from "../../styles/Container.styled";
 import { Button } from "@mui/material";
 
 // Newsletter

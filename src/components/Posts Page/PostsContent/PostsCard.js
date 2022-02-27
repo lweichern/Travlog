@@ -5,7 +5,7 @@ import {
   PostDetails,
   StyledNameAndDate,
 } from "./PostsCard.styled";
-import PostCards from "../../listComponents/PostCards";
+import PostCards from "../../../listComponents/PostCards";
 import {
   FaUserCircle,
   FaMapMarker,

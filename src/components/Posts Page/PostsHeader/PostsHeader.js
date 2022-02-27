@@ -7,9 +7,9 @@ import {
   CameraSVG,
 } from "./PostsHeader.styled";
 import Undraw from "react-undraw/dist/undraw/Undraw";
-import { Container } from "../styles/Container.styled";
-import camera1 from "../../svg/camera-1.svg";
-import camera2 from "../../svg/camera-2.svg";
+import { Container } from "../../styles/Container.styled";
+import camera1 from "../../../svg/camera-1.svg";
+import camera2 from "../../../svg/camera-2.svg";
 
 export default function PostsHeader() {
   return (

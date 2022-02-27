@@ -5,8 +5,8 @@ import {
   TitleHeader,
   StyledGrid,
 } from "./PostsContent.styled";
-import { Container } from "../styles/Container.styled";
-import PostCards from "../../listComponents/PostCards";
+import { Container } from "../../styles/Container.styled";
+import PostCards from "../../../listComponents/PostCards";
 
 export default function PostsContent() {
   return (

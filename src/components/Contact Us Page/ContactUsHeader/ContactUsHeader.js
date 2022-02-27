@@ -10,10 +10,10 @@ import {
 } from "./ContactUsHeader.styled";
 import { Button } from "@mui/material";
 import Undraw from "react-undraw";
-import { Container } from "../styles/Container.styled";
-import message1 from "../../svg/message-1.svg";
-import message2 from "../../svg/message-2.svg";
-import message3 from "../../svg/message-3.svg";
+import { Container } from "../../styles/Container.styled";
+import message1 from "../../../svg/message-1.svg";
+import message2 from "../../../svg/message-2.svg";
+import message3 from "../../../svg/message-3.svg";
 
 export default function ContactUsHeader() {
   return (

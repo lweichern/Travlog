@@ -1,6 +1,6 @@
 import React from "react";
-import ContactUsHeader from "../components/ContactUsHeader/ContactUsHeader";
-import ContactUsCardSection from "../components/ContactUsCardSection/ContactUsCardSection";
+import ContactUsHeader from "../components/Contact Us Page/ContactUsHeader/ContactUsHeader";
+import ContactUsCardSection from "../components/Contact Us Page/ContactUsCardSection/ContactUsCardSection";
 import Navbar from "../components/Navbar/Navbar";
 import { useLocation } from "react-router-dom";
 
