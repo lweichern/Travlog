@@ -9,7 +9,8 @@ export const StyledHeader = styled.div`
   width: 100vw;
 
   @media (max-width: ${({ theme }) => theme.tablet}) {
-    height: 100vh;
+    height: auto;
+    padding: 3rem;
   }
 `;
 
@@ -36,7 +37,7 @@ export const SVGImages = styled.div`
 
 export const CameraSVG = styled.img`
   position: absolute;
-  width: 150px;
+  width: 20%;
 `;
 
 export const TextSection = styled.div``;

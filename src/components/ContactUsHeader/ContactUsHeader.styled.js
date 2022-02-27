@@ -8,7 +8,7 @@ export const StyledHeader = styled.div`
   align-items: center;
   justify-content: center;
   @media (max-width: ${({ theme }) => theme.tablet}) {
-    height: 100vh;
+    height: auto;
     padding: 3rem;
   }
 `;

@@ -2,8 +2,15 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const StyledHeader = styled.header`
-  background-color: ${({ bg }) => (bg ? "rgba(0, 0, 0,0.95)" : "transparent")};
-  position: fixed;
+  // background-color: ${({ bg, currentPage }) =>
+    bg ? "rgba(0, 0, 0,0.95)" : "transparent"};
+  background-color: ${({ bg, currentPage }) =>
+    currentPage !== "/"
+      ? "rgba(0, 0, 0,0.95)"
+      : bg
+      ? "rgba(0, 0, 0,0.95)"
+      : "transparent"};
+  position: ${({ currentPage }) => (currentPage === "/" ? "fixed" : "sticky")};
   top: 0;
   left: 0;
   width: 100%;

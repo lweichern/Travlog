@@ -42,17 +42,17 @@ export default function ContactUsHeader() {
 
             <MessagesSVG
               src={message1}
-              style={{ top: 0, right: "20%", width: "8rem" }}
+              style={{ top: 0, right: "20%", width: "13%" }}
               className="message message-1"
             />
             <MessagesSVG
               src={message2}
-              style={{ top: 0, left: "8%", width: "8rem" }}
+              style={{ top: 0, left: "8%", width: "13%" }}
               className="message message-2"
             />
             <MessagesSVG
               src={message3}
-              style={{ bottom: "0%", right: "30%", width: "10rem" }}
+              style={{ bottom: "0%", right: "30%", width: "17%" }}
               className="message message-3"
             />
           </SVGImages>

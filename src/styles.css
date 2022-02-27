@@ -87,3 +87,20 @@ a {
     transform: translateX(0) translateY(0) rotate(0deg) scale(1);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .message-1,
+  .message-2 {
+    width: 17% !important;
+  }
+
+  .message-3 {
+    width: 21% !important;
+    bottom: 15% !important;
+  }
+
+  .camera-1,
+  .camera-2 {
+    width: 28% !important;
+  }
+}

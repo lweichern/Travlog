@@ -15,7 +15,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 export default function Navbar({ currentPage }) {
   const [navBgColor, setNavBgColor] = useState(false);
   const [isNavActive, setIsNavActive] = useState(false);
-  console.log(isNavActive);
+  console.log(currentPage);
   const handleNavbarClickActive = () => {
     setIsNavActive(!isNavActive);
   };
