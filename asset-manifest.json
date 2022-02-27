@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travlog/static/css/main.81c01456.css",
-    "main.js": "/travlog/static/js/main.ef4bdb67.js",
+    "main.css": "/travlog/static/css/main.8c3121b2.css",
+    "main.js": "/travlog/static/js/main.a596c02a.js",
     "static/media/1.jpg": "/travlog/static/media/1.32e8b0deb240ddcdc1a9.jpg",
     "static/media/ImageList1.jpg": "/travlog/static/media/ImageList1.c6a075cda158376d2430.jpg",
     "static/media/thailand.jpg": "/travlog/static/media/thailand.9af82509c158ed64c285.jpg",
@@ -37,11 +37,11 @@
     "static/media/slick.ttf": "/travlog/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/travlog/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/travlog/index.html",
-    "main.81c01456.css.map": "/travlog/static/css/main.81c01456.css.map",
-    "main.ef4bdb67.js.map": "/travlog/static/js/main.ef4bdb67.js.map"
+    "main.8c3121b2.css.map": "/travlog/static/css/main.8c3121b2.css.map",
+    "main.a596c02a.js.map": "/travlog/static/js/main.a596c02a.js.map"
   },
   "entrypoints": [
-    "static/css/main.81c01456.css",
-    "static/js/main.ef4bdb67.js"
+    "static/css/main.8c3121b2.css",
+    "static/js/main.a596c02a.js"
   ]
 }
