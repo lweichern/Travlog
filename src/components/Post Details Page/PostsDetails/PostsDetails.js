@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import postsArray from "../../listComponents/PostCards";
+import postsArray from "../../../listComponents/PostCards";
 import {
   StyledContent,
   PostTitle,
@@ -13,8 +13,8 @@ import {
   InnerBodyGallery,
   StyledNameAndDate,
 } from "./PostsDetails.styled";
-import Navbar from "../Navbar/Navbar";
-import { Container } from "../styles/Container.styled";
+import Navbar from "../../Navbar/Navbar";
+import { Container } from "../../styles/Container.styled";
 import { motion, AnimatePresence } from "framer-motion";
 import ImageGallery from "../ImageGallery/ImageGallery";
 import Slider from "react-slick";
@@ -23,7 +23,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Icons
 import { FaUserCircle, FaMapMarker, FaStar, FaCalendar } from "react-icons/fa";
-import imageGallery from "../../listComponents/Gallery";
+import imageGallery from "../../../listComponents/Gallery";
 
 export default function PostsDetails() {
   const [postObject, setPostObject] = useState();

@@ -1,8 +1,8 @@
 import React from "react";
 import { StyledImageList } from "./ImageList.styled";
 import Card from "./Card";
-import imageList from "../../listComponents/ListImages";
-import { Flex } from "../styles/Flex.styled";
+import imageList from "../../../listComponents/ListImages";
+import { Flex } from "../../styles/Flex.styled";
 import { motion } from "framer-motion";
 
 export default function ImageList() {

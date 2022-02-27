@@ -2,7 +2,7 @@ import React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItem";
-import galleryImages from "../../listComponents/Gallery";
+import galleryImages from "../../../listComponents/Gallery";
 
 export default function ImageGallery() {
   return (
@@ -16,7 +16,7 @@ export default function ImageGallery() {
               alt={item.title}
               loading="lazy"
             />
-            <ImageListItemBar title={item.title} subtitle={item.title}/>
+            <ImageListItemBar title={item.title} subtitle={item.title} />
           </ImageListItem>
         ))}
       </ImageList>

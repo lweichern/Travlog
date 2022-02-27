@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImage from "../components/Home Page/HeroImage/HeroImage";
 import HeroText from "../components/Home Page/HeroText/HeroText";
-import ImageList from "../components/ImageList/ImageList";
+import ImageList from "../components/Home Page/ImageList/ImageList";
 import ContentSection from "../components/Home Page/ContentSection/ContentSection";
 import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
