@@ -18,7 +18,7 @@ import Home from "./pages/Home";
 import Posts from "./pages/Posts";
 import ContactUs from "./pages/ContactUs";
 // import Navbar from "./components/Navbar/Navbar";
-import PostsDetails from "./components/PostsDetails/PostsDetails";
+import PostsDetails from "./components/Post Details Page/PostsDetails/PostsDetails";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {
