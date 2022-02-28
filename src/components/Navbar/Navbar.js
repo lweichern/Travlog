@@ -67,7 +67,7 @@ export default function Navbar({ currentPage }) {
                 <li>Home</li>
               </Link>
               <Link to={"/posts"}>
-                <li>Posts</li>
+                <li>Blog Posts</li>
               </Link>
               <Link to={"/contact-us"}>
                 <li>Contact Us</li>
