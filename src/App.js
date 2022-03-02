@@ -20,6 +20,7 @@ import ContactUs from "./pages/ContactUs";
 // import Navbar from "./components/Navbar/Navbar";
 import PostsDetails from "./components/Post Details Page/PostsDetails/PostsDetails";
 import Footer from "./components/Footer/Footer";
+import Favorite from "./components/Favorites/Favorites";
 
 export default function App() {
   const theme = {
@@ -39,6 +40,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/posts" element={<Posts />} />
+          <Route path="/favorites" element={<Favorite />} />
           <Route path="/posts/:postsId" exact element={<PostsDetails />} />
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>

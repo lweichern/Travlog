@@ -1,6 +1,13 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const StyledPostsContent = styled.div``;
+
+export const TitleAndFavorite = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
 
 export const TitleHeader = styled.h1`
   color: ${({ theme }) => theme.colors.content};
@@ -8,6 +15,10 @@ export const TitleHeader = styled.h1`
   @media (max-width: ${({ theme }) => theme.mobile}) {
     text-align: center;
   }
+`;
+
+export const FavoriteIcon = styled(motion.div)`
+  cursor: pointer;
 `;
 
 export const StyledGrid = styled.div`

@@ -4,8 +4,8 @@ import {
   StyledImage,
   PostDetails,
   StyledNameAndDate,
+  StyledViewMoreAndFavorite,
 } from "./PostsCard.styled";
-import PostCards from "../../../listComponents/PostCards";
 import {
   FaUserCircle,
   FaMapMarker,
@@ -13,12 +13,32 @@ import {
   FaArrowRight,
   FaCalendar,
 } from "react-icons/fa";
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  toggleFavorite,
+  addToFavoriteList,
+} from "../../../redux/actions/favoriteAction";
 
 export default function PostsCard(props) {
+  const allPosts = useSelector((state) => state.favorite.posts);
+  const favoriteList = useSelector((state) => state.favorite.list);
+  const currentPost = allPosts.find((item) => item.id === props.postsId);
+  const isFavorite = currentPost.isFavorite;
+  const dispatch = useDispatch();
+
+  console.log(favoriteList);
+
+  // update favorite list whenever allPosts is edited
+  useEffect(() => {
+    dispatch(addToFavoriteList());
+  }, [allPosts]);
+
+  // Scroll animation
   const controls = useAnimation();
   const [ref, inView] = useInView();
   useEffect(() => {
@@ -38,6 +58,15 @@ export default function PostsCard(props) {
       transition: {
         duration: 0.3,
       },
+    },
+  };
+
+  const favoriteIconVariant = {
+    hidden: {
+      scale: 1,
+    },
+    visible: {
+      scale: 1.1,
     },
   };
 
@@ -79,22 +108,35 @@ export default function PostsCard(props) {
           <FaStar /> {props.ratings}
         </h5>
 
-        <Link to={`/posts/${props.postsId}`}>
-          <Button
-            variant="contained"
-            endIcon={<FaArrowRight />}
-            style={{ background: "#1e1536", color: "#ebffeb" }}
-            component={motion.div}
-            whileHover={{
-              scale: 1.05,
-              transition: {
-                duration: 0.3,
-              },
-            }}
-          >
-            View More{" "}
-          </Button>
-        </Link>
+        <StyledViewMoreAndFavorite>
+          <Link to={`/posts/${props.postsId}`}>
+            <Button
+              variant="contained"
+              endIcon={<FaArrowRight />}
+              style={{ background: "#1e1536", color: "#ebffeb" }}
+              component={motion.div}
+              whileHover={{
+                scale: 1.05,
+                transition: {
+                  duration: 0.3,
+                },
+              }}
+            >
+              View More{" "}
+            </Button>
+          </Link>
+          {isFavorite ? (
+            <AiFillHeart
+              onClick={() => dispatch(toggleFavorite(props.postsId))}
+              className="heart-icon"
+            />
+          ) : (
+            <AiOutlineHeart
+              onClick={() => dispatch(toggleFavorite(props.postsId))}
+              className="heart-icon"
+            />
+          )}
+        </StyledViewMoreAndFavorite>
       </PostDetails>
     </StyledPostCard>
   );

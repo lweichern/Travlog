@@ -104,3 +104,17 @@ a {
     width: 28% !important;
   }
 }
+
+.heart-icon {
+  cursor: pointer;
+  color: #ff0088;
+  font-size: 1.5rem;
+}
+
+.favorite {
+  fill: #1e1536 !important;
+}
+
+.badge span {
+  background: red !important;
+}

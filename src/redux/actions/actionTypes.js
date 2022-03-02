@@ -1,0 +1,4 @@
+export const actionTypes = {
+  TOGGLE_FAVORITE: "TOGGLE_FAVORITE",
+  ADD_TO_FAVORITE_LIST: "ADD_TO_FAVORITE_LIST",
+};
