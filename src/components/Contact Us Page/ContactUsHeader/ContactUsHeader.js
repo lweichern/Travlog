@@ -14,6 +14,7 @@ import { Container } from "../../styles/Container.styled";
 import message1 from "../../../svg/message-1.svg";
 import message2 from "../../../svg/message-2.svg";
 import message3 from "../../../svg/message-3.svg";
+import { HashLink } from "react-router-hash-link";
 
 export default function ContactUsHeader() {
   return (
@@ -25,17 +26,18 @@ export default function ContactUsHeader() {
             <Description>
               Let us know how we can help by shooting us an email.
             </Description>
-            <Button
-              variant="outlined"
-              style={{
-                color: "#ebffeb",
-                border: "1px solid #ebffeb",
-                padding: " 0.5rem 2rem",
-              }}
-              href="#enquirySection"
-            >
-              Submit Enquiry
-            </Button>
+            <HashLink to={"#enquirySection"}>
+              <Button
+                variant="outlined"
+                style={{
+                  color: "#ebffeb",
+                  border: "1px solid #ebffeb",
+                  padding: " 0.5rem 2rem",
+                }}
+              >
+                Submit Enquiry
+              </Button>
+            </HashLink>
           </TextSection>
           <SVGImages>
             <Undraw name="contact" height="300" />
