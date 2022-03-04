@@ -31,8 +31,6 @@ export default function PostsCard(props) {
   const isFavorite = currentPost.isFavorite;
   const dispatch = useDispatch();
 
-  console.log(favoriteList);
-
   // update favorite list whenever allPosts is edited
   useEffect(() => {
     dispatch(addToFavoriteList());
@@ -75,7 +73,9 @@ export default function PostsCard(props) {
       variants={cardVariant}
       initial="hidden"
       animate={controls}
+      exit={{ opacity: 0 }}
       ref={ref}
+      layout
     >
       <Link to={`/posts/${props.postsId}`}>
         <StyledImage
