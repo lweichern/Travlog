@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/travlog/static/css/main.5630d5e5.css",
-    "main.js": "/travlog/static/js/main.dbe50624.js",
+    "main.js": "/travlog/static/js/main.7b2e3ce0.js",
     "static/media/1.jpg": "/travlog/static/media/1.32e8b0deb240ddcdc1a9.jpg",
     "static/media/ImageList1.jpg": "/travlog/static/media/ImageList1.c6a075cda158376d2430.jpg",
+    "static/media/netherlands.jpg": "/travlog/static/media/netherlands.3cf44cd229aa4a34d58b.jpg",
+    "static/media/belgium.jpg": "/travlog/static/media/belgium.c78739f71b22595974d1.jpg",
     "static/media/thailand.jpg": "/travlog/static/media/thailand.9af82509c158ed64c285.jpg",
     "static/media/bali.jpg": "/travlog/static/media/bali.25face6572ad3065ed23.jpg",
     "static/media/2.jpg": "/travlog/static/media/2.24e06387c4d0bd959811.jpg",
@@ -15,8 +17,10 @@
     "static/media/nyc-1.jpg": "/travlog/static/media/nyc-1.e0eadcef6ee7726f7ade.jpg",
     "static/media/singapore.jpg": "/travlog/static/media/singapore.2cd6d1140179ace66526.jpg",
     "static/media/nyc-3.jpg": "/travlog/static/media/nyc-3.28431e5d7af31010f94e.jpg",
+    "static/media/paris.jpg": "/travlog/static/media/paris.d9bec01f526e28daf027.jpg",
     "static/media/timesSquare-2.jpg": "/travlog/static/media/timesSquare-2.f91764b89aac12f1180d.jpg",
     "static/media/brooklynBridge.jpg": "/travlog/static/media/brooklynBridge.9347ad26797c914b03b9.jpg",
+    "static/media/chile.jpg": "/travlog/static/media/chile.50aa40357cb85e72bd21.jpg",
     "static/media/nyc-2.jpg": "/travlog/static/media/nyc-2.7e4cb03efe4cf2d8ddff.jpg",
     "static/media/kuala-lumpur.jpg": "/travlog/static/media/kuala-lumpur.11fba880fae4fe67f2ef.jpg",
     "static/media/ImageList2.jpg": "/travlog/static/media/ImageList2.b8a41907329e23ad0515.jpg",
@@ -25,7 +29,9 @@
     "static/media/chineseFood.jpg": "/travlog/static/media/chineseFood.fc74218ed41153754602.jpg",
     "static/media/camera-1.svg": "/travlog/static/media/camera-1.8c744f953099d022e91e2c444fdbe17e.svg",
     "static/media/camera-2.svg": "/travlog/static/media/camera-2.e706b9106092928fdc239eb6aef5614a.svg",
+    "static/media/brazil.jpg": "/travlog/static/media/brazil.45e5c92eb934b2d5c51e.jpg",
     "static/media/statueOfLiberty.jpg": "/travlog/static/media/statueOfLiberty.f1ece0002967d6e73db1.jpg",
+    "static/media/argentina.jpg": "/travlog/static/media/argentina.4618adfde221ff97c40b.jpg",
     "static/media/japan.jpg": "/travlog/static/media/japan.101def0376eba3edd884.jpg",
     "static/media/message-2.svg": "/travlog/static/media/message-2.b85f03c0a97ff9826428bb18036dae9b.svg",
     "static/media/message-1.svg": "/travlog/static/media/message-1.70dfc49d3ff8d3bf388857c4cb5e455d.svg",
@@ -38,10 +44,10 @@
     "static/media/slick.woff": "/travlog/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/travlog/index.html",
     "main.5630d5e5.css.map": "/travlog/static/css/main.5630d5e5.css.map",
-    "main.dbe50624.js.map": "/travlog/static/js/main.dbe50624.js.map"
+    "main.7b2e3ce0.js.map": "/travlog/static/js/main.7b2e3ce0.js.map"
   },
   "entrypoints": [
     "static/css/main.5630d5e5.css",
-    "static/js/main.dbe50624.js"
+    "static/js/main.7b2e3ce0.js"
   ]
 }
