@@ -64,13 +64,32 @@ export default function Navbar({ currentPage }) {
 
             <ul>
               <Link to={"/"}>
-                <li>Home</li>
+                <li
+                  style={{
+                    borderBottom: currentPage === "/" && "2px solid #fff",
+                  }}
+                >
+                  Home
+                </li>
               </Link>
               <Link to={"/posts"}>
-                <li>Blog Posts</li>
+                <li
+                  style={{
+                    borderBottom: currentPage === "/posts" && "2px solid #fff",
+                  }}
+                >
+                  Blog Posts
+                </li>
               </Link>
               <Link to={"/contact-us"}>
-                <li>Contact Us</li>
+                <li
+                  style={{
+                    borderBottom:
+                      currentPage === "/contact-us" && "2px solid #fff",
+                  }}
+                >
+                  Contact Us
+                </li>
               </Link>
             </ul>
           </MenuLinks>
